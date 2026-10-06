@@ -1,0 +1,331 @@
+.dotgothic16-regular {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    background-color: #E19BFC;
+    overflow-x: hidden;
+}
+
+.gameboy{
+    width: 900px;
+    position: center;
+    padding-left: 315px;
+    z-index: -2;
+    position: absolute;
+    padding-bottom: 200px;
+}
+
+.triangle-1{
+    padding-top: 2px;
+    position: relative;
+    padding-bottom: 300px;
+    right: 50px;
+    margin-top: 500px;
+    transform: rotate(32deg);
+}
+
+.triangle-2{
+    position:relative;
+    margin-bottom: 700px;
+    right: -320px;
+    transform: rotate(145deg);
+}
+
+.triangle-3{
+    position:relative;
+    top: -1200px;
+    width: 300px;
+    right: 980px;
+    transform: rotate(-10deg);
+}
+
+.triangle-4{
+    position:relative;
+    bottom: 670px;
+    left: 900px;
+    width: 300px;
+    transform:rotate(-15deg);
+}
+
+.circle-1{
+    position: relative;
+    bottom: 500px;
+    right: 200px;
+}
+
+.circle-2{
+    position: relative;
+    bottom: 950px;
+    left: 230px;
+    width: 300px;
+}
+
+.circle-3{
+    position: relative;
+    bottom: 1900px;
+    right: 100px;
+    left: 80px;
+    width: 300px;
+}
+
+.star-1{
+    position:relative;
+    bottom: 1195px;
+    left: 600px;
+    right: 50px;
+}
+
+.star-2{
+    position:relative;
+    bottom: 2480px;
+    transform: rotate(-15deg);
+}
+
+.star-3{
+    position:relative;
+    bottom: 2500px;
+    top: -2610px;
+    left: 435px;
+    width: 300px;
+    transform: rotate(15deg);
+}
+
+.squiggle-1{
+    position:relative;
+    bottom: 2555px;
+    width: 200px;
+    transform:rotate(-45deg);
+    left: 255px;
+}
+
+.squiggle-2{
+    position:relative;
+    bottom: 2800px;
+    width: 200px;
+    right: 1050px;
+    transform: rotate(-45deg);
+}    
+
+.squiggle-3{
+    position:relative;
+    bottom: 2800px;
+    width: 200px;
+    right: 1050px;
+}
+
+.squiggle-4{
+    position: relative;
+    width: 200px;
+    bottom: 2050px;
+    left: 290px;
+    transform: rotate(45deg);
+}
+
+.long-squiggle{
+    position: relative;
+    bottom: 1700px;
+}
+
+
+
+h1{
+
+    font-family: "DotGothic16";
+    position: absolute;
+    top: 300px;
+    padding-left: 600px;
+    padding-bottom: 900px;
+    font-size: 45pt;
+}
+
+.description{
+    font-family: "DotGothic16";
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    padding-left: 300px;
+    padding-right: 300px;
+    top: 1290px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px;
+    margin-bottom: -200px;
+    
+}
+
+.letters{
+    font-family: "DotGothic16";
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 50pt;
+    bottom: -1300px;
+}
+
+.letters-2{
+    font-family: "DotGothic16";
+    position: absolute;
+    color:white;
+    text-align:left;
+    font-size: 50pt;
+    bottom: -1370px;
+}
+
+.letters-3{
+    font-family: "DotGothic16";
+    position:absolute;
+    color: white;
+    text-align: left;
+    font-size: 50pt;
+    bottom: -1440px;
+}
+
+.letters-4{
+    font-family: "DotGothic16";
+    position:absolute;
+    color: white;
+    text-align: left;
+    font-size: 50pt;
+    bottom: -1510px;
+}
+
+.numbers{
+    font-family: "DotGothic16";
+    position: absolute;
+    color: white;
+    text-align:right;
+    font-size: 50pt;
+    bottom: -1300px;
+}
+
+.numbers-2{
+    font-family: "DotGothic16";
+    position: absolute;
+    color:white;
+    text-align:left;
+    font-size: 50pt;
+    bottom: -1370px;
+}
+
+.numbers-3{
+    font-family: "DotGothic16";
+    position:absolute;
+    color: white;
+    text-align: left;
+    font-size: 50pt;
+    bottom: -1440px;
+}
+
+.numbers-4{
+    font-family: "DotGothic16";
+    position:absolute;
+    color: white;
+    text-align: left;
+    font-size: 50pt;
+    bottom: -1510px;
+}
+
+.shooter{
+    position: relative;
+    width: 1580px;
+    bottom: 1600px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+    gap: 25px;
+    margin-top: -1800px;
+}
+
+.adj{
+    font-family: "DotGothic16";
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 50pt;
+    bottom: -2200px;
+    word-spacing: 90px;
+    left: 90px;
+}
+
+.tetris{
+    position: relative;
+    width: 1600px;
+    bottom: 1700px;
+    right: 50px;
+}
+
+.pixels{
+    font-family: "DotGothic16";
+    color:white;
+}
+
+.bitmap{
+    font-family: "DotGothic16";
+    color:white;
+}
+
+.computer{
+    font-family: "DotGothic16";
+    color:white;
+}
+
+.video-game{
+    font-family: "DotGothic16";
+    color:white;
+}
+
+.tomogatchi{
+    position:relative;
+    width: 1300px;
+    left: 100px;
+    bottom: 1100px;
+}
+
+h3{
+    font-family: "DotGothic16";
+    color:white;
+    font-size: 30pt;
+    text-align:center;
+    bottom: 1100px;
+    position: relative;
+}
+
+.description-1{
+    font-family: "DotGothic16";
+    color:white;
+    font-size: 10pt;
+    text-align: center;
+    position: relative;
+    bottom: 1100px;
+}
+
+.description-2{
+    font-family: "DotGothic16";
+    color:white;
+    font-size: 10pt;
+    text-align: center;
+    position: relative;
+    bottom: 1099px;
+}
+
+.description-3{
+    font-family: "DotGothic16";
+    color:white;
+    font-size: 10pt;
+    text-align:center;
+    position: relative;
+    bottom: 1090px;
+}
+
